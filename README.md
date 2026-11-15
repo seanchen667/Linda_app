@@ -2,7 +2,7 @@
 
 A student-led mechatronics project to design, build, test, and improve a lightweight hip-assistance mechanism.
 
-**Current status:** planning only. No CAD, hardware, firmware, experimental measurements, or clinical validation has been completed in this repository.
+**Current status:** initial literature screening and executable numerical simulations completed. [Read the simulation delivery and results](simulation/README.md). No CAD, physical prototype, device firmware, experimental measurements, or clinical validation has been completed. Simulation code and initial analysis are AI-assisted starting materials, not Linda's independently completed work.
 
 ## Project question
 

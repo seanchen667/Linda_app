@@ -1,0 +1,73 @@
+{
+  "model": "prescribed-motion, unilateral elastic cable and delayed first-order spool servo",
+  "dt_s": 0.002,
+  "seconds": 8.0,
+  "development_cases": 64,
+  "validation_cases": 96,
+  "screened_designs": 216,
+  "assumed_screen": {
+    "worst_rmse_N": 2.5,
+    "worst_peak_N": 20,
+    "max_extension_mm": 40,
+    "max_abs_spool_mm": 49.9
+  },
+  "development_baseline": {
+    "stiffness_N_m": 8000.0,
+    "feedback_gain": 1.0,
+    "integral_gain_per_s": 12.0,
+    "observer": true,
+    "cases": 64,
+    "worst_rmse_N": 8.158551304032516,
+    "mean_rmse_N": 4.225929392830825,
+    "worst_peak_N": 62.81787695651918,
+    "max_extension_mm": 7.852234619564897,
+    "max_abs_spool_mm": 25.258776067194756,
+    "speed_saturation_fraction": 0.020566964285714286,
+    "passes_screen": false
+  },
+  "development_selected": {
+    "stiffness_N_m": 1500.0,
+    "feedback_gain": 1.0,
+    "integral_gain_per_s": 0.0,
+    "observer": true,
+    "cases": 64,
+    "worst_rmse_N": 3.795905193721827,
+    "mean_rmse_N": 1.4256225521020636,
+    "worst_peak_N": 19.348495241619638,
+    "max_extension_mm": 12.898996827746425,
+    "max_abs_spool_mm": 26.411591773448496,
+    "speed_saturation_fraction": 0.14023214285714286,
+    "passes_screen": false
+  },
+  "validation_baseline": {
+    "stiffness_N_m": 8000.0,
+    "feedback_gain": 1.0,
+    "integral_gain_per_s": 12.0,
+    "observer": true,
+    "cases": 96,
+    "worst_rmse_N": 13.814069017710375,
+    "mean_rmse_N": 4.545959134888753,
+    "worst_peak_N": 95.59169172148923,
+    "max_extension_mm": 10.269884533383228,
+    "max_abs_spool_mm": 36.084313110221544,
+    "speed_saturation_fraction": 0.010077380952380952,
+    "passes_screen": false
+  },
+  "validation_selected": {
+    "stiffness_N_m": 1500.0,
+    "feedback_gain": 1.0,
+    "integral_gain_per_s": 0.0,
+    "observer": true,
+    "cases": 96,
+    "worst_rmse_N": 3.572458883298919,
+    "mean_rmse_N": 1.247642205999504,
+    "worst_peak_N": 22.268362159350616,
+    "max_extension_mm": 14.689990737258311,
+    "max_abs_spool_mm": 27.82371920725857,
+    "speed_saturation_fraction": 0.08982440476190476,
+    "passes_screen": false
+  },
+  "validation_peak_reduction_pct": 76.70470962661639,
+  "feasible_designs": 0,
+  "selected_is_feasible": false
+}
